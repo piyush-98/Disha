@@ -17,3 +17,7 @@ https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
 
 
 https://github.com/twinklejaswani/Yawn-Detection-using-OpenCV
+
+
+
+https://github.com/yogeshchellappa/opencv-yawnDetector/blob/master/yawn.py
