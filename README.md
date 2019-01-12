@@ -14,3 +14,6 @@ https://github.com/gauravtheP/Real-Time-Facial-Expression-Recognition/blob/maste
 https://stackoverflow.com/questions/13887863/extract-bounding-box-and-save-it-as-an-image <br>
 https://realpython.com/face-detection-in-python-using-a-webcam/
 https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/
+
+
+https://github.com/twinklejaswani/Yawn-Detection-using-OpenCV
