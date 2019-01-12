@@ -7,3 +7,7 @@ https://realpython.com/face-recognition-with-python/
 
 
 https://medium.com/@hinasharma19se/facial-expressions-recognition-b022318d842a
+
+
+
+https://github.com/gauravtheP/Real-Time-Facial-Expression-Recognition/blob/master/RealTimeFacialExpressionRecognition/FacialExpressionRecognition.pdf
