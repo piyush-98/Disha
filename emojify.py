@@ -46,10 +46,10 @@ def keras_predict(model, image):
 	pred = model.predict(processed)
 	pred_probab = pred[0]
 	pred_class = list(pred_probab).index(max(pred_probab))
-	return max(pred_probab), pred_class
+	return max(pred_probab), pred_class,pred
 
 def fun_util():
-	emojis = get_emojis()
+#	emojis = get_emojis()
 	disp_probab, disp_class = 0, 0
 	while True:
 		img = cam.read()[1]
@@ -71,8 +71,10 @@ def fun_util():
 				#cv2.rectangle(img, (x, y), (x+w, y+h), (255, 255, 0), 2)
 				cv2.imshow('faceAligned', faceAligned)
 				cv2.imshow('face #{}'.format(i), img[y:y+h, x:x+w])
-				pred_probab, pred_class = keras_predict(cnn_model, faceAligned)
-				img = blend(img, emojis[pred_class], (x, y, w, h))
+				pred_probab, pred_class,predd= keras_predict(cnn_model, faceAligned)
+				print(predd)
+	                	#img = blend(img, emojis[pred_class], (x, y, w, h))
+                #final_predict=
 		cv2.imshow('img', img)
 		if cv2.waitKey(1) == ord('q'):
 			break
