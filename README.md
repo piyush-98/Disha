@@ -1,12 +1,12 @@
 # Disha
-`Determing the concentration level of the student by analyzing the face through the computer vision and the deep learning`
-**Team Members**
-Piyush Gupta 
+`Determing the concentration level of the student by analyzing the face through the computer vision and the deep learning`<br>
+**Team Members**<br>
+/*Piyush Gupta*
 
-jaspreet Singh
+*jaspreet Singh*
 
-Himani Negi
+*Himani Negi*
 
-Tanmay Baweja
+*Tanmay Baweja*
 
 
